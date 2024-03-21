@@ -6,7 +6,7 @@ import (
 
 type Todo struct {
 	gorm.Model
-	id int
-	todo string
+	ID int `json:"id"`
+	Todo string `json:"todo"`
 }
 
